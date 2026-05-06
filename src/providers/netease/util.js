@@ -2,7 +2,7 @@ import encrypt from './crypto.js'
 import { net_ease_anonymous_token } from './config.js'
 import { customAlphabet } from 'nanoid/non-secure'
 
-const nanoid = customAlphabet('3360043044', 32)
+const nanoid = customAlphabet('1234567890abcdef', 32)
 
 // cookie字符串
 const customCookieString = `
